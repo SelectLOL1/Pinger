@@ -1,4 +1,4 @@
-const WEBSOCKET_IP = "localhost";
+const WEBSOCKET_IP = "localhost"; //51.154.144.230
 const WEBSOCKET_PORT = "8000";
 const websocket = new WebSocket(
     "ws://" + WEBSOCKET_IP + ":" + WEBSOCKET_PORT,

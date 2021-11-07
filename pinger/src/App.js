@@ -1,6 +1,8 @@
 import { useEffect } from "react";
-import readWsMsg from "./Communication/readWebsocketMsg";
+
 import websocket from "./Communication/websocket";
+import readWsMsg from "./Communication/readWebsocketMsg";
+import Device from "./Components/Device";
 
 function App() {
 
@@ -45,10 +47,16 @@ function App() {
             </nav>
       </header>
       <div class="container-fluid">
-        <div class="col-2" id="sidebar">
+        <div class="col" id="sidebar">
           Here will be the sidemenu
         </div>
         <div class="row" id="MainWindow">
+          <Device />
+          <Device />
+          <Device />
+          <Device />
+          <Device />
+          <Device />
           Here will be the extended ones
         </div>
       </div>

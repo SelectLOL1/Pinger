@@ -1,10 +1,10 @@
 
 
-export default function device (props){
+export default function Device (props){
 
     return(
-        <div clas="container-fluid">
-            
+        <div class="col-3" id="DeviceBox">
+            Ola
         </div>
     )
 }
